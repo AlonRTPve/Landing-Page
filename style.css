@@ -1,0 +1,180 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.first-section{
+    background-color: #1F2937;
+
+}
+
+.navbar-left{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.navbar-right{
+    font-size: 18px;
+
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin-top: 0px;
+    color: white;
+}
+
+
+ul{
+    display: flex;
+    gap: 18px;
+
+}
+
+.content{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    
+}
+
+.contentleft{
+    flex-wrap: wrap;
+    max-width: 500px;
+
+
+}
+
+.bigtext{
+    font-size: 48px;
+    color: white;
+    
+}
+
+#footerp{
+    width: 90%;
+    color: white;
+}
+
+button{
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+
+.midcontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+
+.item1, .item2, .item3, .item4 { border-radius: 60px;}
+
+.third-section{
+    background-color: rgba(202, 194, 194, 0.767);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.quote{
+    width: 700px;
+}
+
+.insidequote{
+    font-size: 30px;
+    
+}
+.name{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.fourth-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.insidebox{
+    background-color: lightblue;
+    width: 80vh;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    background-color: #3882f6;
+
+}
+
+.leftboxsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rightboxsection{
+    align-self: center;
+}
+
+
+.headerbox{
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.boxtext{
+    color: white;
+}
+
+.signup{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: #3882f6;
+    color: white;
+}
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    height: 40px;
+    align-items: center;
+}
+
+.insidefooter{
+    color: white;
+}
+
+#changecolor{
+    border-color: white;
+}
